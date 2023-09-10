@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <title>Minhas Finanças</title>
+  </head>
+  <body class="body">
+    <header>
+      <div class="container">
+        <h3 class="h3 text-center">
+          Nova transação <i class="bi bi-bank"></i>
+        </h3>
+        <form class="form">
+          <div class="mb-3">
+            <label for="inputTitle" class="form-label">Nome</label>
+            <input type="text" hidden class="hidden" />
+            <input
+              type="text"
+              class="form-control"
+              id="inputTitle"
+              aria-describedby="emailHelp"
+            />
+            <div id="titleError" class="form-text text-danger"></div>
+          </div>
+          <div class="mb-3">
+            <label for="inputAmount" class="form-label">Valor</label>
+            <input
+              type="number"
+              step="0.01"
+              class="form-control"
+              id="inputAmount"
+            />
+            <div id="amountError" class="form-text text-danger"></div>
+            <div id="exemple" class="form-text text-light">
+              Se o valor for negativo inicie com (-) EX: -150
+            </div>
+          </div>
+          <button type="submit" class="btn btn-outline-light" id="saveBtn">
+            Salvar
+          </button>
+        </form>
+      </div>
+    </header>
+
+    <section class="container mt-5">
+      <div class="divInfo container">
+        <h3>Histórico de transações <i class="bi bi-arrow-down"></i></h3>
+        <h3>
+          <i class="bi bi-cash text-success"></i> <span id="total"></span>
+        </h3>
+      </div>
+      <div class="container" id="transactionsContainer"></div>
+    </section>
+  </body>
+</html>

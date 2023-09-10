@@ -1,0 +1,29 @@
+{
+  "transactions": [
+    {
+      "name": "Pagamento",
+      "amount": 2500,
+      "id": 1
+    },
+    {
+      "name": "Freela",
+      "amount": 500,
+      "id": 2
+    },
+    {
+      "name": "Fatura do cartão",
+      "amount": -480,
+      "id": 3
+    },
+    {
+      "name": "Pizza",
+      "amount": -50,
+      "id": 4
+    },
+    {
+      "name": "camisa",
+      "amount": -70,
+      "id": 5
+    }
+  ]
+}
