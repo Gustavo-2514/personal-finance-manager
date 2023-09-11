@@ -1,10 +1,11 @@
+# Gerenciador de Finanças Pessoais
 
 Este é um simples guia para ajudar você a iniciar o projeto "Gerenciador de Finanças Pessoais" desenvolvido por Gustavo. Certifique-se de que você tem o Node.js e o npm (Node Package Manager) instalados em sua máquina antes de prosseguir.
 
-Pré-requisitos
+## Pré-requisitos
 Certifique-se de ter o Node.js e o npm instalados na sua máquina. Você pode baixá-los em nodejs.org.
 
-Configuração
+## Configuração
 Clone o repositório do projeto em sua máquina local usando o seguinte comando:
 ```git clone https://github.com/Gustavo-2514/personal-finance-manager.git```
 
