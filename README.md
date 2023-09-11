@@ -19,19 +19,19 @@ Instale as dependências do projeto usando o npm:
 
 A aplicação usa uma série de scripts definidos no **package.json** para facilitar o desenvolvimento. Aqui estão alguns dos principais scripts disponíveis:
 
-json-server: Inicia um servidor JSON para simular uma API de banco de dados. Execute o seguinte comando para iniciar o servidor:
+**Json-server**: Inicia um servidor JSON para simular uma API de banco de dados. Execute o seguinte comando para iniciar o servidor:
 ```npm run json-server```
 
-typescript: Compila o código TypeScript em JavaScript. Execute o seguinte comando para compilar o código TypeScript:
+**Typescript**: Compila o código TypeScript em JavaScript. Execute o seguinte comando para compilar o código TypeScript:
 ```npm run typescript```
 
-sass: Compila arquivos Sass em arquivos CSS. Execute o seguinte comando para compilar os arquivos Sass:
+**Sass**: Compila arquivos Sass em arquivos CSS. Execute o seguinte comando para compilar os arquivos Sass:
 ```npm run sass```
 
-webpack: Executa o Webpack para empacotar os arquivos JavaScript. Execute o seguinte comando para empacotar os arquivos:
+**Webpack**: Executa o Webpack para empacotar os arquivos JavaScript. Execute o seguinte comando para empacotar os arquivos:
 ```npm run webpack```
 
-server: Inicia o servidor de desenvolvimento do Webpack. Execute o seguinte comando para iniciar o servidor:
+**Server**: Inicia o servidor de desenvolvimento do Webpack. Execute o seguinte comando para iniciar o servidor:
 ```npm run server```
 
 > Após seguir as etapas acima e iniciar os scripts necessários, você poderá acessar a aplicação em seu navegador através da URL local fornecida pelo servidor de desenvolvimento do Webpack.
